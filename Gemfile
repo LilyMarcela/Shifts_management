@@ -13,6 +13,8 @@ gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'devise-jwt'
 gem 'simple_token_authentication'
+gem 'active_model_serializers'
+gem 'rspec-json_expectations'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -42,6 +44,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.8'
+  gem 'webmock', '~> 3.0.1'
 end
 
 group :development do

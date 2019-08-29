@@ -4,10 +4,10 @@ one:
   notes: "nothing"
   date_start: "2019-05-17 08:00:00"
   date_end: "2019-05-17 08:00:00"
-  user: 1
+  user_id: 1
 
 two:
   notes: "also nothing"
   date_start: "2019-05-17 08:00:00"
   date_end: "2019-05-17 08:00:00"
-  user: 2
+  user_id: 2

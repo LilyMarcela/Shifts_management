@@ -18,4 +18,10 @@ class User < ApplicationRecord
   def admin?
     self.role_id == 2
   end
+
+  def total_worked_hours
+    self.hours.map do |hour|
+      hour.date_end.to_f - hour.date_start.to_f
+    end.reduce(&:+)/3600
+  end
 end
